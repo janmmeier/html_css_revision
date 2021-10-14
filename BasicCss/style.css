@@ -1,0 +1,88 @@
+body {
+    background-color: #111111;
+}
+
+h1 {
+    color: #00FF00;
+    font-family: 'Aldrich',"Ink Free", sans-serif;
+    border-bottom-style: dotted;
+    margin: 25px;
+}
+
+p {
+    font-family: "Ink Free", "MV Boli", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: normal;
+    color: #00AA00;
+    background-color: #111111;
+    padding: 5px;
+    border:1px solid;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+#shadow {
+    border: 1px solid;
+    width: auto;
+    padding: 25px;
+    color: #00AA00;
+    margin: 25px;
+    text-shadow: 2px 2px 3px white, 0px -5px 5px red;
+    /*
+        horizontal (px)
+        vertical (px)
+        blur (px)
+        color(name, rgb, hex)
+    */
+    box-shadow: 10px 10px 5px #111111;
+    /*
+        horizontal (px)
+        vertical (px)
+        blur (px)
+        color(name, rgb, hex)
+    */
+}
+
+a:link {
+    color: #78ffd0;
+}
+a:visited {
+    color: #d359ff;
+}
+
+button:hover {
+    background-color: #ff4529;
+    color: white;
+}
+button:active {
+    background-color: #d13b24;
+}
+
+/*
+li:first-child {
+    background-color: #93ff7d;
+}
+li:last-child {
+    background-color: #93ff7d;
+}
+li:nth-child(odd) {
+    background-color: #caffbf;
+}
+li:nth-child(even) {
+    background-color: #93ff7d;
+}
+*/
+
+li:nth-child(3n + 2) {
+    /*
+        nth-child(an +b)
+        a = cycle size
+        n = counter, starts at 0
+        b = offset value
+    */
+    background-image: linear-gradient(to right, #fff421, #ffffff) ;
+    color: #111111;
+    opacity: 0.5;
+}
